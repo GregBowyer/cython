@@ -1,3 +1,21 @@
+# THIS IS A HACKED Cython for C++ and PyPy
+
+# DO NOT USE !
+
+Its a silly hack that is not sane, basically it removes the stubbed method
+PyByteArray_FromStringWithSize(char*, size_t len) which PyPy presently does
+not provide.
+
+The C++ generate in Cython creates this. Its probably working in the latest
+version of PyPy, this hacked version is _specific_ to my needs _specific_ to
+two use cases I have and *specific* to my environment.
+
+If you use this fork, and it breaks I have nothing for you, if it microwaves
+your cat, dont say I didnt warn you.
+
+# DO NOT USE !
+
+
 Welcome to Cython!
 =================
 
